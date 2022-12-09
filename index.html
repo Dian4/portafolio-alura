@@ -16,7 +16,7 @@
         <script src='main.js'></script>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar sticky-top navbar-expand-lg bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Diana Irais</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -26,19 +26,19 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Sobre mí</a>
+                            <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Skills</a>
+                            <a class="nav-link" href="#skills">Skills</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Hobbies</a>
+                            <a class="nav-link" href="#hobbies">Hobbies</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Formación</a>
+                            <a class="nav-link" href="#formacion-academica">Formación</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Proyectos</a>
+                            <a class="nav-link" href="#proyectos">Proyectos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="mailto:starblack_dian@hotmail.com">starblack_dian@hotmail.com</a>
@@ -64,7 +64,7 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid seccion2 contenido-padding">
+        <div id="sobre-mi" class="container-fluid seccion2 contenido-padding">
             <div class="row">
                 <div class="col">
                     <h1>Sobre mí</h1>
@@ -74,7 +74,7 @@
             </div>
         </div>
         <div class="container-fluid text-center seccion1 contenido-padding">
-            <div class="row">
+            <div id="skills" class="row">
                 <div class="col-md-4 offset-md-4">
                     <h1>Skills</h1>
                 </div>
@@ -101,6 +101,141 @@
                     <h3>SQL <i class="fa-solid fa-database"></i></h3>
                 </div>
             </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div id="hobbies" class="row">
+                <div class="col-md-4 offset-md-4">
+                    <h1>Hobbies</h1>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="row justify-content-center">
+                <div class="col">
+                    <h3>Leer <i class="fa-solid fa-book"></i></h3>
+                </div>
+                <div class="col">
+                    <h3>Videojuegos <i class="fa-solid fa-gamepad"></i></h3>
+                </div>
+                <div class="col">
+                    <h3>Caminar <i class="fa-solid fa-person-walking"></i></h3>
+                </div>
+                <div class="col">
+                    <h3>Salir a comer <i class="fa-solid fa-utensils"></i></h3>
+                </div>
+                <div class="col">
+                    <h3>Películas y series <i class="fa-solid fa-tv"></i></h3>
+                </div>
+                <div class="col">
+                    <h3>Jugar con mis Gatunos <i class="fa-solid fa-cat"></i></h3>
+                </div>
+            </div>
         </div>
+        <div id="formacion-academica" class="container-fluid text-center seccion2 contenido-padding">
+            <div class="row">
+                <div class="col-md-4 offset-md-4">
+                    <h1>Formación Académica</h1>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col offset-md-2">
+                    <div class="card text-bg-light" style="width: 18rem;">
+                        <img src="assets/img/Escudo-UNAM-escalable.svg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Cirujano Dentista</h5>
+                            <p class="card-text">2020 - UNAM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-bg-light" style="width: 18rem;">
+                        <img src="assets/img/alura.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Desarrollador Web</h5>
+                            <br>
+                            <p class="card-text">2022 - Oracle One - Alura Latam</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="proyectos" class="container-fluid text-center seccion1 contenido-padding">
+            <div class="row">
+                <div class="col-md-4 offset-md-4">
+                    <h1>Experiencia Profesional</h1>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col">
+                    <div class="card border-primary text-primary">
+                        <div class="card-body">
+                            <img src="assets/img/encriptador.png" class="card-img-top">
+                            <h5 class="card-title">Cifrador Alura</h5>
+                            <p class="card-text">Cifrador/Descifrador de texto. Challenge Alura.</p>
+                            <a href="https://github.com/Dian4/encriptador-alura" target="_blank" class="btn btn-outline-primary">Repositorio</a>
+                            <a href="https://dian4.github.io/encriptador-alura/" target="_blank" class="btn btn-primary">Ver demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-success text-success">
+                        <div class="card-body">
+                            <img src="assets/img/ahorcado1.png" class="card-img-top">
+                            <h5 class="card-title">Ahorcado Alura</h5>
+                            <p class="card-text">Juego del ahorcado con Canvas. Challenge Alura.</p>
+                            <a href="https://github.com/Dian4/ahorcado-alura" target="_blank"
+                                class="btn btn-outline-success">Repositorio</a>
+                            <a href="https://dian4.github.io/ahorcado-alura/" target="_blank" class="btn btn-success">Ver demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid seccion2 contenido-padding">
+            <div class="row">
+                <div class="col-4">
+                    <img src="assets/img/telefono.png" class="img-fluid">
+                </div>
+                <div class="col">
+                    <h1>Contacto</h1>
+                    <h6>¿Quieres contactarme?</h6>
+                    <h6>Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</h6>
+                    <br>
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label">Nombre:</label>
+                            <input id="campoNombre" type="text" class="form-control" required minlength="1" maxlength="50">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Correo electrónico:</label>
+                            <input id="campoEmail" type="email" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Asunto:</label>
+                            <input id="campoAsunto" type="text" class="form-control" required minlength="1" maxlength="50">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Mensaje:</label>
+                            <textarea id="campoMensaje" rows="3" class="form-control" required minlength="1" maxlength="300"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <br>
+        </div>
+        <div class="container" style="padding: 20px;">
+            <footer>
+                <p class="text-center text-muted">Diana Irais Cedillo Cruz</p>
+            </footer>
+        </div>
+        <script src="assets/js/main.js"></script>
     </body>
 </html>
